@@ -49,12 +49,18 @@ The solution combines the **Pipes and Filters Pattern** for processing with the 
 
 ## 3. Alternative Solutions
 
-One alternative was considered but was rejected due to its failure to meet one of the design choices.
+Two alternates were considered but were rejected due to their failure to meet one or more of the design choices.
 
 ### Monolithic Architecture
 
 * **Rejection Reason (Failed Maintainability):** Packaging all parsing, filtering, and reporting logic into a single codebase makes updates slow and risky.
 * **Violation:** It violates the ability to integrate **new "varying formats" and evolving components** (Flexibility/Maintainability).
+
+### Microservices Architecture
+
+* **Rejection Reason (Failed Usability and Simplicity):** While it offers strong scalability and modularity, the overall task of managing multiple independent services, APIs, and deployments would be too much for a tool intended to run on individual development environments.
+
+* **Violation**: It introduces unnecessary operational complexity, reducing overall Usability and increasing maintenance burden, conflicting with the project's goal of being a lightweight, workstation-friendly framework.
 
 
 ## 4. Architectural Pattern(s)/Style(s)
