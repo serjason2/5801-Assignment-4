@@ -9,11 +9,11 @@
 repo is public for TA
 
 ## Repository Structure
-├── README.md
-├── RLS/
-  └── rls_architecture.md
-├── Loafr/
-  └── loafr_architecture.md
+* README.md
+* RLS/
+  * rls_architecture.md
+* Loafr/
+  * loafr_architecture.md
 
 ## Document Organization
 1. **Architecturally Important Aspects**  
