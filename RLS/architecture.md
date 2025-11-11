@@ -25,7 +25,7 @@ The system is divided into two subsystems:
 ## 3. Alternative Solutions
 | Option | Why Not Chosen |
 |--------|----------------|
-| **Single monolithic system (no separation)** | Unsafe—operator too close to the rocket. |
+| **Single monolithic system (no separation)** | Unsafe operator too close to the rocket. |
 | **Peer-to-peer communication** | No clear authority; difficult to guarantee safety. |
 | **Wireless-only without confirmation** | Could lose messages and trigger unsafe behavior. |
 
@@ -40,6 +40,6 @@ The system is divided into two subsystems:
 - **Context:** Safe operation requires confirmed messages between CU and LPU.
 - **Decision:** Use a message protocol with acknowledgments, retries, and timeouts.
 - **Consequences:**
-  - ✅ Increases safety and reliability.
-  - ⚠ Adds slight delay, acceptable for safe launches.
-  - ✅ Enables recovery from communication loss.
+  - Increases safety and reliability.
+  - Adds slight delay, acceptable for safe launches.
+  - Enables recovery from communication loss.
