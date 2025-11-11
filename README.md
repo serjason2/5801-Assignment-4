@@ -5,3 +5,5 @@
 - Ayub Mohamud (moha1660)
 - Siddhartha McDaniel (mcdan166)
 - Maxwell McDaniel (mcdan165)
+
+repo is public for TA
